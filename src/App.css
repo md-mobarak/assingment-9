@@ -1,5 +1,12 @@
 .App {
-  
+  margin: 25px;
+}
+.all-product{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  margin: 20px;
 }
 
 .App-logo {
