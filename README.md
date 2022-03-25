@@ -1,4 +1,4 @@
-# Getting Started with Assingment--8
+# Getting Started with Assignment--8
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
