@@ -10,7 +10,7 @@ const Product = ({ data }) => {
                 <h3>Name:{name}</h3>
                 <p>Id:{id}</p>
                 <h1>Price:{price}</h1>
-                <button>Add to Cart</button>
+                <button>Add To Cart</button>
             </div>
 
         </div>
