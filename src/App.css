@@ -36,8 +36,16 @@
   border: none;
   
 }
+
+.clear-btn:hover{
+ background-color: rgb(20, 188, 240);
+}
+
+.chose-btn:hover{
+ background-color: rgb(20, 188, 240);
+}
 .chose-btn{
-  background-color: rgb(211, 77, 211);
+  background-color: thistle;
   padding: 5px 50px;
   border-radius: 10px;
   font-size: 12px;

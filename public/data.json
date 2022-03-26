@@ -1,18 +1,18 @@
 [
     {
-        "name": "mobile-1",
+        "name": "iphone-xs",
         "id": "1",
         "price": "200",
         "img": "https://www.kindpng.com/picc/m/15-156471_iphone-xs-max-front-hd-png-download.png"
     },
     {
-        "name": "mobile-2",
+        "name": "iphone-7-plus",
         "id": "2",
         "price": "250",
         "img": "https://www.pngitem.com/pimgs/m/490-4907187_iphone-7-plus-front-png-transparent-png.png"
     },
     {
-        "name": "mobile-3",
+        "name": "iphone",
         "id": "3",
         "price": "300",
         "img": "https://freepngimg.com/thumb/apple_iphone/133290-11-pic-apple-iphone-free-download-png-hd.png"
@@ -24,7 +24,7 @@
         "img": "https://i.pinimg.com/originals/a2/27/df/a227df4822db04573a0755bac50c7b32.png"
     },
     {
-        "name": "mobile-5",
+        "name": "iphone_11",
         "id": "5",
         "price": "500",
         "img": "https://pngimg.com/uploads/iphone_11/iphone_11_PNG27.png"
@@ -36,37 +36,37 @@
         "img": "https://i.pinimg.com/736x/5b/95/b0/5b95b05d61d9d6c2e055f33b31c1d16d.jpg"
     },
     {
-        "name": "mobile-7",
+        "name": "samsung-3",
         "id": "7",
         "price": "700",
         "img": "https://swall.teahub.io/photos/small/177-1770398_samsung-3-camera-phone.jpg"
     },
     {
-        "name": "mobile-8",
+        "name": "samsung-galaxy-s10",
         "id": "8",
         "price": "800",
         "img": "https://purepng.com/public/uploads/large/samsung-galaxy-s10-prism-front-6bx.png"
     },
     {
-        "name": "mobile-9",
+        "name": "samsung-9",
         "id": "9",
         "price": "900",
         "img": "https://purepng.com/public/uploads/large/purepng.com-samsung-phonesmartphoneandroidgooglephoneapplication-211519339028ghq1u.png"
     },
     {
-        "name": "mobile-10",
+        "name": "Samsung-Mobile",
         "id": "10",
         "price": "1000",
         "img": "https://www.pngarts.com/files/3/Samsung-Mobile-PNG-Download-Image.png"
     },
     {
-        "name": "mobile-11",
+        "name": "samsung-galaxy",
         "id": "11",
         "price": "1100",
         "img": "https://toppng.com/uploads/preview/samsung-galaxy-11563850164auyvvi2o5b.png"
     },
     {
-        "name": "mobile-12",
+        "name": "iphone-11-pro-max",
         "id": "12",
         "price": "1300",
         "img": "https://www.vhv.rs/dpng/d/572-5723935_apple-iphone-11-png-iphone-11-pro-max.png"
