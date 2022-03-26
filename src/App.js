@@ -7,6 +7,33 @@ import ProductSummary from './Component/ProductSummary/ProductSummary';
 
 function App() {
   const [mobiles, setMobiles] = useState([])
+  const [carts, setCarts] = useState([])
+
+  let handleAddToCart = (data) => {
+    const newCart = [...carts, data]
+    setCarts(newCart)
+    // console.log(newCart);
+
+  }
+  const clearSummary = () => {
+    const newCart = [];
+    setCarts(newCart)
+
+  }
+  const chooseOne = () => {
+    const newCart = carts
+    // console.log(carts);
+    const randomCart = newCart[Math.floor(newCart.length * Math.random())]
+    console.log(randomCart);
+    const newRandom = randomCart.name;
+    console.log(newRandom);
+
+    // console.log(newRandom);
+    setCarts(newRandom)
+
+  }
+
+
 
   useEffect(() => {
     fetch('data.json')
@@ -16,11 +43,28 @@ function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <ProductSummary></ProductSummary>
+
       <div className='all-product'>
-        {
-          mobiles.map(mobile => <Product data={mobile} key={mobile.id}></Product>)
-        }
+        <div className='products'>
+          {
+            mobiles.map(mobile => <Product data={mobile}
+              key={mobile.id}
+              handleAddToCart={handleAddToCart}
+
+            ></Product>)
+          }
+        </div>
+        <div className='pd-summary'>
+          <h1>selected Phone</h1>
+          {
+
+            carts.map(cart => <ProductSummary key={cart.id} cart={cart}>
+
+            </ProductSummary>)
+          }
+          <button className='clear-btn' onClick={clearSummary}>Clear</button> <br />
+          <button className='chose-btn' onClick={chooseOne}>Choose One</button>
+        </div>
       </div>
     </div>
   );

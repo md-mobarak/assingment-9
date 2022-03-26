@@ -15,6 +15,12 @@
 }
 .product button{
     margin-top: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+.product button:hover{
+    background-color:orange;
 }
 .product-info{
     margin-left: 20px;

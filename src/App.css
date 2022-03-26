@@ -3,10 +3,26 @@
 }
 .all-product{
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-template-columns: 4fr 1fr;
+  /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
   grid-column-gap: 30px;
   grid-row-gap: 50px;
   margin: 20px;
+  /* position: relative; */
+}
+.products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); 
+  grid-column-gap: 30px;
+  grid-row-gap: 50px;
+  margin: 20px;
+}
+.pd-summary{
+  position: sticky;
+  top: 0px;
+  background-color: rgb(202, 152, 60);
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .App-logo {
