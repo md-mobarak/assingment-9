@@ -24,6 +24,23 @@
   border-radius: 20px;
   padding: 10px;
 }
+.clear-btn{
+  align-items: center;
+  justify-content: center;
+  background-color: thistle;
+  padding: 5px 67px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  
+}
+.chose-btn{
+  background-color: rgb(211, 77, 211);
+  padding: 5px 50px;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+}
 
 .App-logo {
   height: 40vmin;

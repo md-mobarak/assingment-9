@@ -4,6 +4,7 @@ import Product from './Component/Product/Product';
 import { useEffect, useState } from 'react';
 import Navbar from './Component/Navbar/Navbar';
 import ProductSummary from './Component/ProductSummary/ProductSummary';
+import Writen from './Component/Writen/Writen';
 
 function App() {
   const [mobiles, setMobiles] = useState([])
@@ -22,14 +23,11 @@ function App() {
   }
   const chooseOne = () => {
     const newCart = carts
-    // console.log(carts);
     const randomCart = newCart[Math.floor(newCart.length * Math.random())]
-    console.log(randomCart);
-    const newRandom = randomCart.name;
-    console.log(newRandom);
-
-    // console.log(newRandom);
+    const newRandom = [randomCart];
     setCarts(newRandom)
+    // console.log(newRandom);
+
 
   }
 
@@ -62,10 +60,11 @@ function App() {
 
             </ProductSummary>)
           }
-          <button className='clear-btn' onClick={clearSummary}>Clear</button> <br />
+          <button className='clear-btn' onClick={clearSummary}>All-Clear</button> <br /> <br />
           <button className='chose-btn' onClick={chooseOne}>Choose One</button>
         </div>
       </div>
+      <Writen></Writen>
     </div>
   );
 }
