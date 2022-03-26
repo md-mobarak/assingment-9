@@ -1,4 +1,9 @@
-# Getting Started with Assignment--8
+# Online Store with Assignment--8
+
+
+# Live site link
+
+live site:(https://famous-salamander-7842ae.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

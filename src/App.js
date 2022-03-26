@@ -39,7 +39,7 @@ function App() {
       .then(data => setMobiles(data))
   }, [])
   return (
-    <div>
+    <div className='App'>
       <Navbar></Navbar>
 
       <div className='all-product'>
@@ -61,7 +61,7 @@ function App() {
             </ProductSummary>)
           }
           <button className='clear-btn' onClick={clearSummary}>All-Clear</button> <br /> <br />
-          <button className='chose-btn' onClick={chooseOne}>Choose One</button>
+          <button className='chose-btn' onClick={chooseOne}>CHOOSE 1 FOR ME</button>
         </div>
       </div>
       <Writen></Writen>

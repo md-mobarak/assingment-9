@@ -1,13 +1,15 @@
 .App {
-  margin: 25px;
+  margin: 15px;
 }
 .all-product{
   display: grid;
   grid-template-columns: 4fr 1fr;
   /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
   grid-column-gap: 30px;
-  grid-row-gap: 50px;
-  margin: 20px;
+  grid-row-gap: 55px;
+  margin: 5px;
+ 
+  
   /* position: relative; */
 }
 .products{
@@ -38,7 +40,7 @@
   background-color: rgb(211, 77, 211);
   padding: 5px 50px;
   border-radius: 10px;
-  font-size: 18px;
+  font-size: 12px;
   border: none;
 }
 
