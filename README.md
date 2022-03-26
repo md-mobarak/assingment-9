@@ -3,7 +3,7 @@
 
 # Live site link
 
-live site:(https://famous-salamander-7842ae.netlify.app/)
+# [live site:](https://famous-salamander-7842ae.netlify.app/)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
